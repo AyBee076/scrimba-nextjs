@@ -5,7 +5,7 @@ export default function About() {
   return (
     <main>
       <section className="container max-w-4xl px-4 py-8 mx-auto">
-        <h1>About PrintForge</h1>
+        <h1 className="mb-6 text-4xl font-bold text-center">About PrintForge</h1>
         <div className="grid items-center gap-8 mb-12 m">
           <div>
             <Image src={Square} alt="Square Image" className="w-100" />

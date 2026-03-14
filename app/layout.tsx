@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Albert_Sans, Montserrat_Alternates } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 
 const albertSans = Albert_Sans({
   subsets: ["latin"],
