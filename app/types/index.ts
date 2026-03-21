@@ -20,6 +20,9 @@ export type CategoriesData = {
     categories: Category[]
 }
 
+export type GetModelsParams = {
+    category?: string
+}
 // Page Types
 export type CategoryPageProps = {
     params: Promise<{
@@ -55,4 +58,6 @@ export type PillProps = {
 export type NavLinkProps = {
     href: string
     children: ReactNode
+    isActive?: boolean
 }
+
